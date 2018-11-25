@@ -1,0 +1,9 @@
+# pack-refs with: peeled fully-peeled 
+19bf51ec34076a5ce509cb1e027d9b91102745c1 refs/remotes/origin/angler
+e6147941a90567140048bfaf8db6c397dd061657 refs/remotes/origin/betta
+bab636bc89584b3bb2baaa5bc766be82fb81d1b2 refs/remotes/origin/carp
+3b3fb43f0dac617d796bc5a18339ad79996bb6ba refs/remotes/origin/dart
+884ce98464919ea7aea7155c75b50a096c24d38e refs/remotes/origin/debugger
+412a6adb38cb646748c8cfb657549787ab6d2e88 refs/remotes/origin/eel
+bb311fe4aa84ef029b580ccbd859e96e6e120cd6 refs/remotes/origin/libfluid_experiment
+680ad6c13dfcb22de3af15e301b10d6feb9b819b refs/tags/pre-murphy-fix
