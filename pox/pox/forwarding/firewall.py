@@ -67,7 +67,7 @@ class L2firewall(object):
         self.processPacket(event)
 
     def checkRules(self, packet):
-        rulefile = "/home/ron/PycharmProjects/sdntest/pox/pox/forwarding/rules.csv"
+        rulefile = "/home/mininet/projectamit-gal/pox/pox/forwarding/rules.csv"
 
         openrulesfile = open(rulefile, 'rb')
         ruledict = DictReader(openrulesfile)
