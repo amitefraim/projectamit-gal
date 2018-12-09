@@ -5,7 +5,7 @@ UBUNTU 16.04, latest MININET, openVSwitch, Python3
 
 Usage:
 First we need to correct paths inside files,
-change the path "/home/ron/PycharmProjects/sdntest" to your local SDN firewall folder
+change the path "/home/mininet/projectamit-gal" to your local SDN firewall folder
 in the following files:
 virusNotifier.py
 ctrl.py
