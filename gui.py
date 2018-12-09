@@ -72,7 +72,7 @@ def launchMininet():
     varStatus.set("Launching Mininet")
     root.update()
     sys.path.insert(0,'/home/ron/Desktop/tmp/mininet')
-    call(['sudo','python', '/home/ron/PycharmProjects/sdntest/ctrl.py',varServices.get() ,'2', '2'])
+    call(['sudo','python', '/home/mininet/projectamit-gal/ctrl.py',varServices.get() ,'2', '2'])
     varStatus.set("Attack Successfully Blocked")
 root = Tk()
 # for r in range(3):
