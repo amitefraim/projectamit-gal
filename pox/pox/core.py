@@ -152,6 +152,8 @@ class ComponentRegistered (Event):
     self.name = name
     self.component = component
 
+
+from pox.lib.recoco.recoco import *    
 import pox.lib.recoco.recoco
 #import pox.lib.recoco as recoco
 
