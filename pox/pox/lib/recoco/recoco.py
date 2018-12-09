@@ -14,8 +14,8 @@
 
 from __future__ import print_function
 from collections import deque
-from Queue import PriorityQueue
-from Queue import Queue
+#from Queue import PriorityQueue
+#from Queue import Queue
 import time
 import threading
 from threading import Thread
