@@ -485,7 +485,7 @@ def connect_socket_with_backoff (address, port, max_backoff_seconds=32):
   return sock
 
 
-_scalar_types = (int, long, basestring, float, bool)
+_scalar_types = (int, basestring, float, bool)
 
 def is_scalar (v):
   """
