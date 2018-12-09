@@ -71,7 +71,7 @@ def updateCanvas(numOfSwitches):
 def launchMininet():
     varStatus.set("Launching Mininet")
     root.update()
-    sys.path.insert(0,'/home/ron/Desktop/tmp/mininet')
+    sys.path.insert(0,'/home/mininet/mininet')
     call(['sudo','python', '/home/mininet/projectamit-gal/ctrl.py',varServices.get() ,'2', '2'])
     varStatus.set("Attack Successfully Blocked")
 root = Tk()
