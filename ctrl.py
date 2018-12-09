@@ -76,11 +76,11 @@ if __name__ == '__main__':
         net.get('s%s' % i).start([c0])
 
     for i in range(1, numSwitches + 1):
-        net.get('h0_%s' % i).cmd('python3 /home/ron/PycharmProjects/sdntest/virusNotifier.py 8080 %s %s &' % (numSwitches, i))
+        net.get('h0_%s' % i).cmd('python3 /home/mininet/projectamit-gal/virusNotifier.py 8080 %s %s &' % (numSwitches, i))
         for j in range(1, numHostsPerSwitch + 1):
-            net.get('h%s_%s' % (j,i)).cmd('python3 /home/ron/PycharmProjects/sdntest/server.py 8080 10.%s.0.0 &' % i)
+            net.get('h%s_%s' % (j,i)).cmd('python3 /home/mininet/projectamit-gal/server.py 8080 10.%s.0.0 &' % i)
 
-    #net.get('h1').cmd('python3 /home/ron/PycharmProjects/sdntest/attacker.py 10.1.0.1:8080 0.2')
+    #net.get('h1').cmd('python3 /home/mininet/projectamit-gal/attacker.py 10.1.0.1:8080 0.2')
     #net.get('h2').cmd('curl -X POST -d installFlow 10.1.0.1:8080')
     CLI(net)
     net.stop()
