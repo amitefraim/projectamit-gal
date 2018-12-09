@@ -108,7 +108,7 @@ def getLogger (name=None, moreFrames=0):
 # Working around something (don't remember what)
 log = (lambda : getLogger())()
 
-from pox.lib.revent import *
+from pox.lib.revent.revent import *
 
 # Now use revent's exception hook to put exceptions in event handlers into
 # the log...
