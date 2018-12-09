@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-sys.path.append('/home/ron/Desktop/tmp/mininet')
+sys.path.append('/home/mininet/mininet')
 
 from mininet.net import Mininet
 from mininet.cli import CLI
