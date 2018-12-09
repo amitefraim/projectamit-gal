@@ -152,7 +152,8 @@ class ComponentRegistered (Event):
     self.name = name
     self.component = component
 
-import pox.lib.recoco as recoco
+import pox.lib.recoco.recoco
+#import pox.lib.recoco as recoco
 
 class POXCore (EventMixin):
   """
