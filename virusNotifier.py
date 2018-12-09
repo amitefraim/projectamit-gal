@@ -36,7 +36,7 @@ class S(BaseHTTPRequestHandler):
         postVars = post_data.decode('utf-8')
         postVars = postVars.replace("\"","")
         if re.match(r'^fromNotifier', postVars) is None:
-            fileAddr = "/home/ron/PycharmProjects/sdntest/block.list"
+            fileAddr = "/home/mininet/projectamit-gal/block.list"
             fh = open(fileAddr, "r")
             str = fh.read();
             fh.close()
