@@ -4,7 +4,7 @@
 #Created by: Gal Aharon & Amit Efraim 
 
 """
-test.py: We ping to random addresses to test MTD
+config.py: A code designed to initialize mininet as well as sending messages to random addresses
 
 """
 
