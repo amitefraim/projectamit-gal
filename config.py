@@ -1,4 +1,3 @@
-#!/usr/bin/python
 
 #Final Project - Our script for testing Moving Target Defense
 #Created by: Gal Aharon & Amit Efraim 
